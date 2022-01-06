@@ -1,0 +1,27 @@
+{
+  "name": "brick-breaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeff-Derbes/brick-breaker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeff-Derbes/brick-breaker/issues"
+  },
+  "homepage": "https://github.com/Jeff-Derbes/brick-breaker#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  }
+}
